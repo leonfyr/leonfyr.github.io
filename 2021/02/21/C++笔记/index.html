@@ -20,30 +20,32 @@
     var CONFIG = {"hostname":"blog.leonfyr.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="wow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="冯奕然的个人主页">
-<meta property="og:url" content="https://blog.leonfyr.com/index.html">
+  <meta name="description" content="#事先说明:这个学习笔记是我自己用的,可能有些知识点记的不全,我是按照我自己的水平记得 语法让程序不闪退的神奇代码system(&quot;pause&quot;)版本4.99以前 getchar() 约等于  system(“pause”) 运算符   啥子运算符 干啥的 长啥样    算数运算符 数值运算 +,-,*,&#x2F;（如果俩操作数是整数，则为整除）,% (俩操作数必须是整数) ,++,–(">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C++笔记">
+<meta property="og:url" content="https://blog.leonfyr.com/2021/02/21/C++%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="冯奕然的个人主页">
-<meta property="og:description" content="wow">
+<meta property="og:description" content="#事先说明:这个学习笔记是我自己用的,可能有些知识点记的不全,我是按照我自己的水平记得 语法让程序不闪退的神奇代码system(&quot;pause&quot;)版本4.99以前 getchar() 约等于  system(“pause”) 运算符   啥子运算符 干啥的 长啥样    算数运算符 数值运算 +,-,*,&#x2F;（如果俩操作数是整数，则为整除）,% (俩操作数必须是整数) ,++,–(">
 <meta property="og:locale">
+<meta property="article:published_time" content="2021-02-21T12:42:04.000Z">
+<meta property="article:modified_time" content="2021-02-21T13:17:29.466Z">
 <meta property="article:author" content="Leon Feng">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://blog.leonfyr.com/">
+<link rel="canonical" href="https://blog.leonfyr.com/2021/02/21/C++%E7%AC%94%E8%AE%B0/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'cn'
   };
 </script>
 
-  <title>冯奕然的个人主页</title>
+  <title>C++笔记 | 冯奕然的个人主页</title>
   
 
 
@@ -142,9 +144,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="cn">
@@ -160,10 +163,9 @@
       <meta itemprop="name" content="冯奕然的个人主页">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/02/21/C++%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">C++笔记</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          C++笔记
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -177,6 +179,13 @@
             </span>
 
           
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
 
         </div>
       </header>
@@ -187,7 +196,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>#事先说明:<br>这个学习笔记是我自己用的,可能有些知识点记的不全,我是按照我自己的水平记得</p>
+        <p>#事先说明:<br>这个学习笔记是我自己用的,可能有些知识点记的不全,我是按照我自己的水平记得</p>
 <h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><h2 id="让程序不闪退的神奇代码"><a href="#让程序不闪退的神奇代码" class="headerlink" title="让程序不闪退的神奇代码"></a>让程序不闪退的神奇代码</h2><p><code>system(&quot;pause&quot;)</code>版本4.99以前</p>
 <p>getchar() 约等于  system(“pause”)</p>
 <h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><table>
@@ -629,150 +638,30 @@
 </tbody></table>
 <h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><h2 id="海伦公式"><a href="#海伦公式" class="headerlink" title="海伦公式"></a>海伦公式</h2><p>已知三角形三条边求其面积<br>$$<br>s=\sqrt{p(p-a)(p-b)(p-c)}<br>$$<br>其中<br>$$<br>p=(a+b+c)\div2<br>$$</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="cn">
-    <link itemprop="mainEntityOfPage" href="https://blog.leonfyr.com/2021/02/04/helloWorld/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpeg">
-      <meta itemprop="name" content="Leon Feng">
-      <meta itemprop="description" content="wow">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="冯奕然的个人主页">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/02/04/helloWorld/" class="post-title-link" itemprop="url">HelloWorld</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-02-04 14:21:56" itemprop="dateCreated datePublished" datetime="2021-02-04T14:21:56+08:00">2021-02-04</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/02/04/helloWorld/" rel="prev" title="HelloWorld">
+      <i class="fa fa-chevron-left"></i> HelloWorld
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="cn">
-    <link itemprop="mainEntityOfPage" href="https://blog.leonfyr.com/2021/02/03/[C++%E5%AD%A6%E4%B9%A0%E8%AE%B0]%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%80%E8%8A%82:C++%E5%9F%BA%E7%A1%80/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E5%A4%B4%E5%83%8F.jpeg">
-      <meta itemprop="name" content="Leon Feng">
-      <meta itemprop="description" content="wow">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="冯奕然的个人主页">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/02/03/%5BC++%E5%AD%A6%E4%B9%A0%E8%AE%B0%5D%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%AC%AC%E4%B8%80%E8%8A%82:C++%E5%9F%BA%E7%A1%80/" class="post-title-link" itemprop="url">[C++学习记]第一章第一节:C++基础</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-02-03 17:42:04 / Modified: 19:34:40" itemprop="dateCreated datePublished" datetime="2021-02-03T17:42:04+08:00">2021-02-03</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>这是我学习&lt;&lt;信息学奥赛一本通&gt;&gt;的学习笔记,第一篇=.=<br>可能做得不是太好,以后可能会配一些插图或者好玩的东西</p>
-<h2 id="C-简介"><a href="#C-简介" class="headerlink" title="C++简介"></a>C++简介</h2><p>C++真厉害!!!<br>(什么?你要更多信息?你百度不就好了!C++那么厉害,哪里都能搜的到..)</p>
-<h2 id="简单的C-语言程序实例"><a href="#简单的C-语言程序实例" class="headerlink" title="简单的C++语言程序实例"></a>简单的C++语言程序实例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;  &#x2F;&#x2F;我是注释,这是一个输入HelloWorld的程序</span><br><span class="line">using namespace std;</span><br><span class="line">int main()&#123;</span><br><span class="line">	cout&lt;&lt;&quot;Hello World!&quot;&lt;&lt;endl;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>语句要用分号分隔!!!千万不能忘!!!<br>这是一个简单的C++例子,保存为文件的扩展名要是.cpp  第一行意思是导入C++的基本输入输出库,后面那东西是注释,是给人看的,编译器会自动忽略,一个注释可以注释掉注释号后面的所有东西,除了下一行的代码(绕口令哈哈哈)<br>第二行是使用标准名字空间的意思,名字空间是C++中的一种机制,用来控制不同类库的冲突问题<br>第三行是主函数的声明.一个程序只有且必须有一个主函数.可以理解为独生子,只能有一个.main后面有一个圆括号,代表这是个函数.花括号括起来的就是函数主体.<br>第四行是最重要的!!!!!!!!!!是一个输出语句,把东西输出在屏幕上面.cout的声明在第一行iostream里面,所以想要用cout,就必须导入iostream头文件!!endl是换行<br>第五行:main函数的返回语句.一般在这个函数的最后面.如果是0就是正常,其他数字是异常</p>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>就结束啦!是不是很短……当然,以后会出下一篇的,这篇全是文字……这个是<a href="https://blog.leonfyr.com/">我的个人主页</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -825,6 +714,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AF%AD%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%A9%E7%A8%8B%E5%BA%8F%E4%B8%8D%E9%97%AA%E9%80%80%E7%9A%84%E7%A5%9E%E5%A5%87%E4%BB%A3%E7%A0%81"><span class="nav-number">1.1.</span> <span class="nav-text">让程序不闪退的神奇代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.2.</span> <span class="nav-text">运算符</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%A2%9E%E8%87%AA%E5%87%8F%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.2.1.</span> <span class="nav-text">自增自减运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">1.2.2.</span> <span class="nav-text">逻辑运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BC%98%E5%85%88%E7%BA%A7"><span class="nav-number">1.2.3.</span> <span class="nav-text">优先级</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%BA%93%E5%87%BD%E6%95%B0"><span class="nav-number">1.3.</span> <span class="nav-text">常用库函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E9%87%8F"><span class="nav-number">1.4.</span> <span class="nav-text">常量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89%E5%B8%B8%E9%87%8F"><span class="nav-number">1.4.1.</span> <span class="nav-text">定义常量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E5%9E%8B%E5%B8%B8%E9%87%8F"><span class="nav-number">1.4.2.</span> <span class="nav-text">整型常量</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%81%E8%BF%9B%E5%88%B6%E5%BD%A2%E5%BC%8F"><span class="nav-number">1.4.2.1.</span> <span class="nav-text">十进制形式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%AB%E8%BF%9B%E5%88%B6%E5%BD%A2%E5%BC%8F"><span class="nav-number">1.4.2.2.</span> <span class="nav-text">八进制形式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E5%BD%A2%E5%BC%8F"><span class="nav-number">1.4.2.3.</span> <span class="nav-text">十六进制形式</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%98%E9%87%8F"><span class="nav-number">1.5.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-number">1.6.</span> <span class="nav-text">标准数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E5%9E%8B%E4%B8%8E%E5%AE%9E%E5%9E%8B"><span class="nav-number">1.6.1.</span> <span class="nav-text">整型与实型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6"><span class="nav-number">1.6.2.</span> <span class="nav-text">转义字符</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA"><span class="nav-number">1.7.</span> <span class="nav-text">输入输出</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#getchar"><span class="nav-number">1.7.1.</span> <span class="nav-text">getchar</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#putchar"><span class="nav-number">1.7.2.</span> <span class="nav-text">putchar</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cout"><span class="nav-number">1.7.3.</span> <span class="nav-text">cout</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#setw"><span class="nav-number">1.7.3.1.</span> <span class="nav-text">setw</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cstdio-%E5%BA%93"><span class="nav-number">1.7.4.</span> <span class="nav-text">cstdio 库</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5"><span class="nav-number">1.7.4.1.</span> <span class="nav-text">输入</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#scanf%E6%9C%89%E8%BF%94%E5%9B%9E%E5%80%BC%EF%BC%81%EF%BC%81%EF%BC%81%EF%BC%81%EF%BC%81"><span class="nav-number">1.7.4.1.1.</span> <span class="nav-text">scanf有返回值！！！！！</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA"><span class="nav-number">1.7.4.2.</span> <span class="nav-text">输出</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%A0%BC%E5%BC%8F%E7%AC%A6"><span class="nav-number">1.7.4.2.1.</span> <span class="nav-text">格式符</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#d%E6%A0%BC%E5%BC%8F%E7%AC%A6"><span class="nav-number">1.7.4.2.2.</span> <span class="nav-text">d格式符</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#f%E6%A0%BC%E5%BC%8F%E7%AC%A6"><span class="nav-number">1.7.4.2.3.</span> <span class="nav-text">f格式符</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#s%E6%A0%BC%E5%BC%8F%E7%AC%A6"><span class="nav-number">1.7.4.2.4.</span> <span class="nav-text">s格式符</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AE%97%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%B7%E4%BC%A6%E5%85%AC%E5%BC%8F"><span class="nav-number">2.1.</span> <span class="nav-text">海伦公式</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
